@@ -91,7 +91,8 @@ abstract class GenericSerializationVisitor extends AbstractSerializationVisitor
             $v = $this->navigator->accept($v, null, $this);
 
             if (null === $v) {
-                continue;
+                //continue;
+                ;
             }
 
             $rs[$k] = $v;
