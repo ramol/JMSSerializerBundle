@@ -92,7 +92,7 @@ abstract class GenericSerializationVisitor extends AbstractSerializationVisitor
 
             if (null === $v) {
                 //continue;
-                ;
+                ;;
             }
 
             $rs[$k] = $v;
